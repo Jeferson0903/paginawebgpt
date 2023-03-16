@@ -17,7 +17,7 @@ function Home2() {
       const params = {
         model: "text-davinci-003",
         prompt: e.target.value,
-        max_tokens: 56,
+        max_tokens: 100,
         temperature: 0.5,
       };
 
