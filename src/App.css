@@ -137,11 +137,13 @@ textarea {
 }
 
 .answer-box{
+  border-radius: 1rem;
   height: 20rem;
   margin: 2% 10%;
 }
 
 .text-box {
+  border-radius: 1rem;
   height: 10rem;
   margin: 0% 10%;
 }
