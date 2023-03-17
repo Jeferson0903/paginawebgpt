@@ -24,7 +24,11 @@ useEffect(() => {
   return (
     <div className="App">
 
-    
+<div>
+      <h2 className='titulo'>
+        Vamos entender um pouco sobre o ChatGPT!
+      </h2>
+    </div>
       <motion.div ref={carousel} className="carousel" whileTap={{cursor:"grabbing"}}>
         <motion.div
         className="inner"
@@ -47,7 +51,7 @@ useEffect(() => {
         O ChatGPT é um chatbot que utiliza inteligência artificial, variante do modelo de linguagem GPT-3, desenvolvido pela startup OpenAI. O GPT-3 foi treinado com uma enorme quantidade de dados de texto, e o ChatGPT é uma variante desse modelo otimizado para gerar texto em estilo de conversação, ou seja, gerar respostas de maneira natural e humana.
       </h2>
     </div>
-      <Link className='link' to='/Home2'>Acesse o ChatGPT!</Link>
+      <Link className='link' to='/Home2'>Acesse o ChatGPT</Link>
     
     </div>
   );

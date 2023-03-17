@@ -7,13 +7,21 @@ header{
    display: flex;
    align-items: center;
    justify-content: center;
+   font-family: "Open Sans";
    
 }
 
 h1{
   color: rgb(240, 243, 244);
 }
+
+.titulo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  margin-top: -4rem;
+}
 h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   text-align: center;
   margin: 2rem;
